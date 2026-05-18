@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Run Tracker",
+    "slug": "run-tracker",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "runtracker",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.local.runtracker",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Run Tracker needs your location to record your running route, distance, and pace."
+      }
+    },
+    "android": {
+      "package": "com.local.runtracker",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-location"
+    ]
+  }
+}
